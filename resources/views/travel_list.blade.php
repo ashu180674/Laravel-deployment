@@ -13,6 +13,7 @@
     </ul>
 
     <h2>Places I've Already Been To</h2>
+    <h3>new place by dev</h3>
     <ul>
           @foreach ($visited as $place)
                 <li>{{ $place->name }}</li>
